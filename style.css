@@ -70,6 +70,8 @@ header p {
     color: gray;
     font-size: 14px;
     font-weight: normal;
+    text-align: center;
+
 
 }
 
@@ -78,6 +80,7 @@ header p {
     padding: 10px 20px;
     justify-content: center;
     align-items: center;
+
 
 
 
@@ -96,29 +99,42 @@ header p {
     margin: 10px 20px;
     padding: 20px 10px;
     gap: 20px;
-    background-color: #ebe2e2;
+    background-color: #FFEEEE;
     border-radius: 5px;
     font-size: 30px;
-    color: gray;
+    color: rgb(80, 78, 78);
+    border: 1px solid;
+    width: 100px;
 
 }
 
 .taka li:hover {
-    color: orangered;
-    background-color: #e6c5b9;
+    color: #ffffff;
+    background-color: #e25420;
     border: 1px solid orangered;
+    user-select: none;
 }
 
-hr {
-    width: 400px;
 
-    margin: 10px auto;
+
+.input-taka {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #929090;
+    text-align: center;
+    color: gray;
+    user-select: none;
+    font-size: 25px;
+
+}
+
+
+.our-donate-plan {
+    margin-top: 100px;
+}
+
+.title-subtitle {
     text-align: center;
 }
-
-.other-tk {
-    font-size: 10px;
-    color: #cfcfcf;
-}
-
-.th-taka
